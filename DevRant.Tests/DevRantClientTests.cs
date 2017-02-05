@@ -41,5 +41,13 @@ namespace DevRant
             Assert.That(result.Username, Is.Not.EqualTo(username));
             Assert.That(result.Score, Is.GreaterThan(0));
         }
+
+        [Test, Explicit]
+        public async Task GetRantsAsync_WhenCalled_ReturnsValue()
+        {
+            var result = await sut.GetRantsAsync();
+
+            Assert.That(result, Is.Not.Empty);
+        }
     }
 }

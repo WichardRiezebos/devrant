@@ -5,7 +5,6 @@ namespace DevRant.Dtos
     /// <summary>
     /// Represents a data-transfer-object for a devrant profile.
     /// </summary>
-    [JsonObject("profile")]
     public class Profile
     {
         /// <summary>

@@ -25,10 +25,12 @@ The code below is an example how to use the library.
 
 ```
 using DevRant;
-
+using DevRant.Dtos;
+....
 using(var devRant = new DevRantClient())
 {
     var profile = await devRant.GetProfileAsync("WichardRiezebos");
+	var topTenRants = await devRant.GetRantsAsync(sort: RantSort.Top, limit: 10);
 }
 ```
 
@@ -37,8 +39,8 @@ All the available rest-api method(s) are described below:
 
 | API | METHOD |  DESCRIPTION |
 | --- | --- | --- | 
-| [/api/user/{id}/](http://devrant.io/api/users/404181?app=3) | [GetProfileAsync](#getprofileasync) | Gets the complete profile of a devRant user. |
-| - | - | - |
+| [/api/user/{id}/](https://devrant.io/api/users/404181?app=3) | [GetProfileAsync](#getprofileasync) | Gets the complete profile of a devRant user. |
+| [/api/devrant/rants/](https://devrant.io/api/devrant/rants?app=3&sort=algo&limit=50&skip=0) | [GetRantsAsync](#getrantsasync) | Gets a collection with rants. |
 
 ### GetProfileAsync
 
@@ -46,6 +48,15 @@ All the available rest-api method(s) are described below:
 | NAME | MANDATORY |  TYPE |
 | --- | --- | --- |  
 | username |  yes | string | 
+
+### GetRantsAsync
+
+###### Arguments
+| NAME | MANDATORY |  TYPE | DEFAULT |
+| --- | --- | --- | --- |
+| sort |  no | enum (algo, recent and top) | algo |
+| limit |  no | int | 50 |
+| skip |  no | int | 0 |
 
 ## Limitations
 
