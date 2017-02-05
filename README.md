@@ -33,3 +33,12 @@ using(var devRant = new DevRantClient())
     var profile = await devRant.GetProfileAsync("WichardRiezebos");
 }
 ```
+
+## Methods
+
+- GetProfileAsync(username)
+
+
+## Limitations
+
+Not all methods are available yet.
