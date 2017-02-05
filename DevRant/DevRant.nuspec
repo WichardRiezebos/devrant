@@ -3,8 +3,8 @@
   <metadata>
     <id>$id$</id>
     <version>$version$</version>
-    <title>DevRant</title>
-    <description>Unofficial devrant.io public api client.</description>
+    <title>devRant</title>
+    <description>Unofficial csharp-client for the public devRant API. </description>
     <authors>Wichard Riezebos</authors>
     <owners>Wichard Riezebos</owners>
     <projectUrl>https://github.com/WichardRiezebos/devrant</projectUrl>
