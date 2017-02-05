@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>DevRant</title>
+    <description>Unofficial devrant.io public api client.</description>
+    <authors>Wichard Riezebos</authors>
+    <owners>Wichard Riezebos</owners>
+    <projectUrl>https://github.com/WichardRiezebos/devrant</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/WichardRiezebos/devrant/master/icon.png</iconUrl>
+    <tags>devrant fml rant unofficial rest client public api</tags>
+  </metadata>
+</package>
