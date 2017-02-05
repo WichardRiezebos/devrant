@@ -4,9 +4,9 @@ Unofficial devrant.io public api client.
 
 | | |
 | --- | --- |
-| **Build** | - |
+| **Build** | [![Build status](https://ci.appveyor.com/api/projects/status/mecpjf5cwqpdgd67?svg=true)](https://ci.appveyor.com/project/WichardRiezebos/devrant) |
 | **NuGet** | [![NuGet](https://buildstats.info/nuget/DevRant)](https://www.nuget.org/packages/DevRant/) |
-| **Gitter** | |
+| **Gitter** | not yet |
 
 ## Prerequisites
 
