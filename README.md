@@ -1,12 +1,10 @@
 # DevRant
- 
-Unofficial devrant.io public api client.
+[![Build status](https://ci.appveyor.com/api/projects/status/mecpjf5cwqpdgd67?svg=true)](https://ci.appveyor.com/project/WichardRiezebos/devrant) [![NuGet](https://buildstats.info/nuget/DevRant)](https://www.nuget.org/packages/DevRant/) [![Join the chat at https://gitter.im/devrant-csharp/Lobby](https://badges.gitter.im/devrant-csharp/Lobby.svg)](https://gitter.im/devrant-csharp/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-| | |
-| --- | --- |
-| **Build** | [![Build status](https://ci.appveyor.com/api/projects/status/mecpjf5cwqpdgd67?svg=true)](https://ci.appveyor.com/project/WichardRiezebos/devrant) |
-| **NuGet** | [![NuGet](https://buildstats.info/nuget/DevRant)](https://www.nuget.org/packages/DevRant/) |
-| **Gitter** |  [![Join the chat at https://gitter.im/devrant-csharp/Lobby](https://badges.gitter.im/devrant-csharp/Lobby.svg)](https://gitter.im/devrant-csharp/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) |
+Unofficial **csharp-client** for the *public* [devRant](https://www.devrant.io/) API. 
+*Based on: [danillouz/devrant](https://github.com/danillouz/devrant)*
+
+![Cartoon 2](https://www.devrant.io/static/devrant/img/cartoon2.png)
 
 ## Prerequisites
 
