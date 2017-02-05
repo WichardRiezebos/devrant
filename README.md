@@ -33,9 +33,19 @@ using(var devRant = new DevRantClient())
 ```
 
 ## Methods
+All the available rest-api method(s) are described below:
 
-- GetProfileAsync(username)
+| API | METHOD |  DESCRIPTION |
+| --- | --- | --- | 
+| [/api/user/{id}/](http://devrant.io/api/users/404181?app=3) | [GetProfileAsync](#GetProfileAsync) | Gets the complete profile of a devRant user. |
+| - | - | - |
 
+### GetProfileAsync
+
+###### Arguments
+| NAME | MANDATORY |  TYPE |
+| --- | --- | --- |  
+| username |  yes | string | 
 
 ## Limitations
 
