@@ -37,7 +37,7 @@ All the available rest-api method(s) are described below:
 
 | API | METHOD |  DESCRIPTION |
 | --- | --- | --- | 
-| [/api/user/{id}/](http://devrant.io/api/users/404181?app=3) | [GetProfileAsync](#GetProfileAsync) | Gets the complete profile of a devRant user. |
+| [/api/user/{id}/](http://devrant.io/api/users/404181?app=3) | [GetProfileAsync](#getprofileasync) | Gets the complete profile of a devRant user. |
 | - | - | - |
 
 ### GetProfileAsync
@@ -49,4 +49,5 @@ All the available rest-api method(s) are described below:
 
 ## Limitations
 
-Not all methods are available yet.
+- Not all methods are available yet. 
+- Explicit use of `Task Async`.
